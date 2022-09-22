@@ -1,0 +1,3 @@
+class LocationFolders {
+  String location;
+}

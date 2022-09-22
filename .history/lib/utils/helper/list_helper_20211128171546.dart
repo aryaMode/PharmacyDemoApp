@@ -1,0 +1,4 @@
+bool isLast(List list) {
+
+}
+

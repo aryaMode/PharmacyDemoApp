@@ -1,0 +1,4 @@
+bool isLast(intList list) {
+
+}
+

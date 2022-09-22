@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "princecareindia.com.demo_catalog_app",
+  "variantName": "debug",
+  "elements": []
+}

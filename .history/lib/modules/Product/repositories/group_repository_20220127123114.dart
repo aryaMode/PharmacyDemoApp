@@ -1,0 +1,17 @@
+import 'package:demo_catalog_app/modules/Product/models/group.dart';
+
+Stream<List<Group>> retrieveGroups(){
+  Query query = database.ref("product tab/groups").orderByChild("index");
+    Stream<DatabaseEvent> stream = query.onValue;
+    stream.map(
+      (DatabaseEvent event) {
+        Map<String, dynamic> groupsData =
+            event.snapshot.value as Map<String, dynamic>;
+        List<Group> groups = [];
+        groupsData.forEach((key, value) {
+          groups.add(Group.fromMap(value));
+        });
+        return groups;
+      },
+    )
+}

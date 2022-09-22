@@ -1,0 +1,3 @@
+class ImageController {
+  <Database>
+}

@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+princecareindia/com/demo_catalog_app/BuildConfig.java
+ princecareindia.com.demo_catalog_app.BuildConfig
+princecareindia/com/demo_catalog_app/MainActivity.java
+ princecareindia.com.demo_catalog_app.MainActivity

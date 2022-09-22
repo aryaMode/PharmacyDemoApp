@@ -1,0 +1,2 @@
+
+const kCompanyName = "Company Name";
